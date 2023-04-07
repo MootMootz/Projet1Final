@@ -1,4 +1,4 @@
-package fr.isika.cda24.TPAnnuaire;
+package fr.isika.cda24.TPAnnuaire.program;
 
 import java.net.PasswordAuthentication;
 
@@ -29,6 +29,7 @@ import javafx.scene.layout.Priority;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import javafx.util.Pair;
+import fr.isika.cda24.TPAnnuaire.entitees.Stagiaire;
 
 public class DeuxiemeFenetre extends GridPane {
 

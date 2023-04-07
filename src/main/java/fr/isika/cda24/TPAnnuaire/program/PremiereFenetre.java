@@ -1,4 +1,4 @@
-package fr.isika.cda24.TPAnnuaire;
+package fr.isika.cda24.TPAnnuaire.program;
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;
@@ -6,12 +6,10 @@ import javafx.event.EventHandler;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
-import javafx.scene.layout.Pane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
@@ -50,7 +48,6 @@ public class PremiereFenetre extends Application {
 		HBox hBox1 = new HBox(200);
 		HBox hBox2 = new HBox(200);
 		VBox vBox1 = new VBox(300);
-	
 
 // Etape 02: Intégrer les variables avec le constructeur "obj.getChildren" :
 

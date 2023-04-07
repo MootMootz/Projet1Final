@@ -1,9 +1,9 @@
-package fr.isika.cda24.TPAnnuaire;
+package fr.isika.cda24.TPAnnuaire.program;
 
+import fr.isika.cda24.TPAnnuaire.program.PremiereFenetre;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import fr.isika.cda24.TPAnnuaire.PremiereFenetre;
 
 public class MainApp extends Application {
 
@@ -16,10 +16,10 @@ public class MainApp extends Application {
 
 	PremiereFenetre root = new PremiereFenetre();
 	
-	Scene scene = new Scene(gridPane1);
+//	Scene scene = new Scene(gridPane1); // gripPane1 pas reconnu ?
 	
-	stage.setScene(scene);
-	
+//	stage.setScene(scene);
+//	
 	stage.setTitle("Bienvenue à l'annuaire - Isika");
 	
 	stage.sizeToScene();

@@ -1,5 +1,6 @@
 package fr.isika.cda24.TPAnnuaire;
 
+import fr.isika.cda24.TPAnnuaire.program.SystemInfo;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;

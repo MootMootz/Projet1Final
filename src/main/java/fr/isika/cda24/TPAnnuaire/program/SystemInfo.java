@@ -1,4 +1,4 @@
-package fr.isika.cda24.TPAnnuaire;
+package fr.isika.cda24.TPAnnuaire.program;
 
 public class SystemInfo {
 

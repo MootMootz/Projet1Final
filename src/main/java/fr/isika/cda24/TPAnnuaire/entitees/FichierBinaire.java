@@ -8,14 +8,13 @@ public class FichierBinaire extends Noeud {
 	public String sourceFichierBin = "src/main/java/fr/isika/cda24/TPAnnuaire/doc/test.bin";
 
 	public FichierBinaire(Stagiaire cle, int filsGauche, int filsDroit) {
-		super(cle, filsGauche, filsDroit);
+		super();
 	}
 
 	public void ecrireStagiaire(Stagiaire stagiaire, RandomAccessFile raf) {
 
 		try {
 			raf.seek(raf.length());
-
 			raf.writeChars(stagiaire.getNomLong());
 			raf.writeChars(stagiaire.getPrenomLong());
 			raf.writeChars(stagiaire.getDptLong());
@@ -23,7 +22,6 @@ public class FichierBinaire extends Noeud {
 			raf.writeChars(stagiaire.getAnnee());
 			raf.writeInt(Noeud.FILS_NUL);
 			raf.writeInt(Noeud.FILS_NUL);
-
 			raf.close(); // ferme Le fichier.
 
 		} catch (IOException e) {
@@ -67,7 +65,7 @@ public class FichierBinaire extends Noeud {
 
 			Stagiaire stagiaire = new Stagiaire(nom, prenom, dpt, promo, annee);
 
-			return new Noeud(stagiaire, filsGauche, filsDroit);
+			return new Noeud();
 
 		} catch (IOException e) {
 			// TODO Auto-generated catch block

@@ -15,11 +15,6 @@
             <artifactId>javafx-controls</artifactId>
             <version>13</version>
         </dependency>
-        <dependency>
-        	<groupId>fr.isika.cd24.annuaire</groupId>
-        	<artifactId>annuaire</artifactId>
-        	<version>0.0.1-SNAPSHOT</version>
-        </dependency>
     </dependencies>
     <build>
         <plugins>
